@@ -1,6 +1,6 @@
 package unit1;
 /**
- * Description: 
+ * Description: This code shows math skills which are applied to coding
  * Date: Oct. 1, 2024
  * @author 
  */
@@ -13,7 +13,7 @@ public class MathOperators {
 		/*
          Pre: Kind of Math, but not really
          What do you notice is happening?
-		 */
+		 */ It prints out ints and strings but combines them with a + sign
 
 		//      System.out.println("Butter" + "fly");
 		// Prints out the word "Butterfly"
@@ -44,12 +44,13 @@ public class MathOperators {
 		 */
 
 		// + means: Addition
-
+		System.out.println(5+1 + "it adds numbers together");
 		// - means: Subtraction
-
+		System.out.println(20-8 + "it subtracts numbers together");
 		// * means: Multiplication
-
+	   	System.out.println(4 * 2 + "it multiplies numbers together");
 		// / means: Division
+		System.out.println(4/1 + "it divides numbers together");
 
 
 
@@ -63,15 +64,16 @@ public class MathOperators {
          Print out, using one println statement, what 45 degrees Celsius is in Fahrenheit
 
          Print out, using a print and a println statement, what 900 Fahrenheit is in Celsius
-		 */     
+		 */	System.out.println((45 * 9/5) + 3);
+      		System.out.println((900 - 32) + 5/9);
 
 		/*
          Part 3
          Figure out what is the meaning of % as a math operator. Use print statements
          to check your answer.
-		 */
+		 */	System.out.println(" % finds out the remainder of division");
 
-		//I think % means: 
+		//I think % means: The Remainder of a divided equation.
 
 	}
 }
