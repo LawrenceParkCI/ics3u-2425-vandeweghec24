@@ -2,7 +2,7 @@ package unit1;
 /**
  * Description: 
  * Date: Oct. 1, 2024
- * @author 
+ * @author Caden Vandeweghe
  */
 public class MathOperators {
 	/**

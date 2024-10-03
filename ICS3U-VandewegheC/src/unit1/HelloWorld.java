@@ -7,10 +7,10 @@ package unit1;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		// This prints hello to the system console
+		// This prints Hellow World!! and My name is Caden to the system console
 		System.out.println("Hello World!!");
 		System.out.println("My name is Caden");
-		
+
 		/*
 		 * This is a block comment.
 		 * You can add notes on multiple lines.
