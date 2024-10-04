@@ -2,8 +2,8 @@ package unit1;
 import java.util.Scanner;
 
 /**
- * Description: This code lets you type your first and last name as well as a subject
- * Date: Oct. 3, 2024
+ * Description: This code lets you input 3 letters which it then converts to its ASCII values or the three letters combined, depending on the code.
+ * Date: Oct. 4, 2024
  * @author Caden Vandeweghe
  */
 public class InputChars {
@@ -22,8 +22,9 @@ public class InputChars {
 		ch3 = sc.nextLine().charAt(0);
 		System.out.println();
 		System.out.println("Together these 3 letters spell:" + (ch1 + ch2 + ch3));
-		
-	
+
+		sc.close();
+
 	}
 
 }
