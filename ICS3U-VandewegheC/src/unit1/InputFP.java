@@ -2,7 +2,7 @@ package unit1;
 import java.util.Scanner;
 
 /**
- * Description: This code lets you type your first and last name as well as a subject
+ * Description: This code lets you input two different decimal values.
  * Date: Oct. 3, 2024
  * @author Caden Vandeweghe
  */
@@ -30,6 +30,8 @@ public class InputFP {
 		//display the output
 		System.out.println("The first number entered was" + num1);	
 		System.out.println("The first number entered was" + num2);	
+
+		sc.close();
 
 	}
 
