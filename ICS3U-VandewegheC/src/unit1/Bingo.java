@@ -14,12 +14,12 @@ public class Bingo {
 		// Print game introduction and rules
 		System.out.println("Bingo Card");
 
-		System.out.println("\t1. The caller randomly pulls a numbered bingo ball.");
-		System.out.println("\t2. The number is placed on the bingo board and called out.");
-		System.out.println("\t3. Players look for the called number on their bingo card.");
-		System.out.println("\t4. If the number is located, it is marked off.");
-		System.out.println("\t5. Steps 1 to 4 are repeated until a player matches the BINGO pattern.");
-		System.out.println("\t6. The winning player yells BINGO.");
+		System.out.println("\n\t1. The caller randomly pulls a numbered bingo ball.");
+		System.out.println("\n\t2. The number is placed on the bingo board and called out.");
+		System.out.println("\n\t3. Players look for the called number on their bingo card.");
+		System.out.println("\n\t4. If the number is located, it is marked off.");
+		System.out.println("\n\t5. Steps 1 to 4 are repeated until a player matches the BINGO pattern.");
+		System.out.println("\n\t6. The winning player yells BINGO.");
 
 
 		// Print the Bingo card header
