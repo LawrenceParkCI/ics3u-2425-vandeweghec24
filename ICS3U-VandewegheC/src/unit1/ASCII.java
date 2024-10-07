@@ -11,45 +11,44 @@ public class ASCII {
 	 */
 	public static void main(String[] args) {
 
-//This prints my name
-    System.out.println("____     _      ____  U _____ u _   _        __     __     _      _   _    ____  U _____ u            U _____ u   ____   _   _  U _____ u"); 
- System.out.println("U /"___|U  /"\  u |  _"\ \| ___"|/| \ |"|       \ \   /"/uU  /"\  u | \ |"|  |  _"\ \| ___"|/__        __\| ___"|/U /"___|u|'| |'| \| ___"|/ "); 
- System.out.println("\| | u   \/ _ \/ /| | | | |  _|" <|  \| |>       \ \ / //  \/ _ \/ <|  \| |>/| | | | |  _|"  \"\      /"/ |  _|"  \| |  _ /| |_| |\ |  _|"   "); 
-  System.out.println("| |/__  / ___ \ U| |_| |\| |___ U| |\  |u       /\ V /_,-./ ___ \ U| |\  |uU| |_| |\| |___  /\ \ /\ / /\ | |___   | |_| |U|  _  |u | |___   "); 
-  System.out.println(" \____|/_/   \_\ |____/ u|_____| |_| \_|       U  \_/-(_//_/   \_\ |_| \_|  |____/ u|_____|U  \ V  V /  U|_____|   \____| |_| |_|  |_____|  "); 
-  System.out.println("_// \\  \\    >>  |||_   <<   >> ||   \\,-.      //       \\    >> ||   \\,-.|||_   <<   >>.-,_\ /\ /_,-.<<   >>   _)(|_  //   \\  <<   >>  "); 
-System.out.println("(__)(__)(__)  (__)(__)_) (__) (__)(_")  (_/      (__)     (__)  (__)(_")  (_/(__)_) (__) (__)\_)-'  '-(_/(__) (__) (__)__)(_") ("_)(__) (__) "); 
+		//This prints my name in Bulbhead
+		System.out.println("\n"
+				+ "  ___    __    ____  ____  _  _    _  _  __    _  _  ____  ____  _    _  ____  ___  _   _  ____"
+				+ "\n / __)  /__\\  (  _ \\( ___)( \\( )  ( \\/ )/__\\  ( \\( )(  _ \\( ___)( \\/\\/ )( ___)/ __)( )_( )( ___)"
+				+ "\n( (__  /(__)\\  )(_) ))__)  )  (    \\  //(__)\\  )  (  )(_) ))__)  )    (  )__)( (_-. ) _ (  )__) "
+				+ "\n \\___)(__)(__)(____/(____)(_)\\_)    \\/(__)(__)(_)\\_)(____/(____)(__/\\__)(____)\\___/(_) (_)(____)");
+				
 
-System.out.println("                                                     -:");                                     
-System.out.println("                                                     .:.:    ");                                  
-    System.out.println("                                              .::           ");                               
-    System.out.println("                                         ...::          ");                                   
-      System.out.println("                                      :**.                    ");                           
-       System.out.println("                                    =.-+#+*=.                    ");                       
-        System.out.println("                                   +=-==+*+*                        ");                   
-         System.out.println("                                 +#+*==+*+:                          ");                 
-               System.out.println("                         .+*++**.+**-                         ");                  
-          System.out.println("                               .= +##=###+.                        ");                  
-                 System.out.println("                          :-##*+*##+                        ");                  
-             System.out.println("                              :=*##*=*#=++*-:=-                 ");                  
-                    System.out.println("                        +***#*=*-=#*#+                   ");                  
-                       System.out.println("                     ++*#*#*=++#+##:                  ");                  
-                     System.out.println("                       =+*+#+++-+=*#+                   ");                  
-                System.out.println("                            #*=:=+#- =+=#                   ");                   
-               System.out.println("                            =+:   =*= : :=                    ");                  
-                System.out.println("                           *     +-+.  +.                    ");                  
-                System.out.println("                           +     =-+   =                      ");                 
-                   System.out.println("                        --.    +:  =.                      ");                 
-                   System.out.println("                          -   =.   :                       ");                 
-                    System.out.println("                            ..                            ");                 
-                      System.out.println("                                                        ");                 
-                        System.out.println("           -*+.=+: :+:.=-  -*=     :=..=:             ");                 
-                         System.out.println("          .#= :#+:#*  -#= :#=    -#+  =#-            ");                 
-                         System.out.println("          .#+:-: =#*  -#* :#=    +#+  =#*            ");                 
-                          System.out.println("         .#=    .#*  -#- :#=  .-:#+  =#-            ");                 
-                          System.out.println("         -+=.    .=:.-:  -+=::=: .=:.=.             ");                 
-                            System.out.println("                                                  ");                 
-                             System.out.println("        -. : : :.::  .  :.:.:: - ::              ");                 
-                               System.out.println("      .  . . . ..   .  ..  . .                 ");                 
-}
+		System.out.println("                                                     -:");                                     
+		System.out.println("                                                     .:.:    ");                                  
+		System.out.println("                                              .::           ");                               
+		System.out.println("                                         ...::          ");                                   
+		System.out.println("                                      :**.                    ");                           
+		System.out.println("                                    =.-+#+*=.                    ");                       
+		System.out.println("                                   +=-==+*+*                        ");                   
+		System.out.println("                                 +#+*==+*+:                          ");                 
+		System.out.println("                         .+*++**.+**-                         ");                  
+		System.out.println("                               .= +##=###+.                        ");                  
+		System.out.println("                          :-##*+*##+                        ");                  
+		System.out.println("                              :=*##*=*#=++*-:=-                 ");                  
+		System.out.println("                        +***#*=*-=#*#+                   ");                  
+		System.out.println("                     ++*#*#*=++#+##:                  ");                  
+		System.out.println("                       =+*+#+++-+=*#+                   ");                  
+		System.out.println("                            #*=:=+#- =+=#                   ");                   
+		System.out.println("                            =+:   =*= : :=                    ");                  
+		System.out.println("                           *     +-+.  +.                    ");                  
+		System.out.println("                           +     =-+   =                      ");                 
+		System.out.println("                        --.    +:  =.                      ");                 
+		System.out.println("                          -   =.   :                       ");                 
+		System.out.println("                            ..                            ");                 
+		System.out.println("                                                        ");                 
+		System.out.println("           -*+.=+: :+:.=-  -*=     :=..=:             ");                 
+		System.out.println("          .#= :#+:#*  -#= :#=    -#+  =#-            ");                 
+		System.out.println("          .#+:-: =#*  -#* :#=    +#+  =#*            ");                 
+		System.out.println("         .#=    .#*  -#- :#=  .-:#+  =#-            ");                 
+		System.out.println("         -+=.    .=:.-:  -+=::=: .=:.=.             ");                 
+		System.out.println("                                                  ");                 
+		System.out.println("        -. : : :.::  .  :.:.:: - ::              ");                 
+		System.out.println("      .  . . . ..   .  ..  . .                 ");                 
+	}
 }
