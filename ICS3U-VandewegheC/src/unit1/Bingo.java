@@ -6,11 +6,13 @@ package unit1;
  * @author Caden Vandeweghe
  */
 public class Bingo {
-	/**
-	 *
-	 * @param args unused
-	 */
+
 	public static void main(String[] args) {
+		/**
+		 *
+		 * @param args unused
+		 */
+
 		// Print game introduction and rules
 		System.out.println("Bingo Card");
 
