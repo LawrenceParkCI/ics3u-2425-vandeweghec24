@@ -3,7 +3,7 @@ package unit1;
  * Description: This code shows the use of variables which are applied to coding
  * Date: Sept. 30, 2024
  * @author Caden Vandeweghe
-*/
+ */
 public class CreatingVariables {
 	/**
 	 *
@@ -17,7 +17,7 @@ public class CreatingVariables {
 		System.out.println("Area = 25 x 25");
 
 		//Key Question: what if the value I want to use needs to change?
- 		// x = x(25)
+		// x = x(25)
 		/*
 	Variables
 	- A variable is a place in memory that you can tell your computer to set aside when you make a program.
@@ -30,7 +30,7 @@ public class CreatingVariables {
 
 		System.out.println("Part 1");
 		//what do you notice is being printed out?
-      		//myNum = 10 and then it changes to 20
+		//myNum = 10 and then it changes to 20
 		int myNum;
 		myNum = 10;
 		System.out.print("myNum = ");
@@ -64,12 +64,12 @@ public class CreatingVariables {
 		//Declare and initialize an int variable called myAge that stores your age.
 		int myAge = 16; 
 		//Print it out in a sentence (Hint: remember how we combined text and numbers in a print statement)
-     		System.out.println("My age is " + myAge);
+		System.out.println("My age is " + myAge);
 
 		//Assign it a new value, that is 10 more than the original value
-        	myAge = myAge + 10;
+		myAge = myAge + 10;
 		//Print it out in a new sentence (Hint: remember how we combined text and numbers in a print statement)
-        	System.out.println("My age is now " + myAge);
+		System.out.println("My age is now " + myAge);
 
 
 
