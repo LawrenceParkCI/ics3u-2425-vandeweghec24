@@ -72,7 +72,6 @@ public class Alive {
 
 		System.out.println("\nYou have slept approximately" + HoursSlept + " hours. if you sleep 8 hours a day");
 
-
 		sc.close();
 		
 	}
