@@ -49,6 +49,8 @@ public class Alive {
 		int lastWord = newSentence.lastIndexOf(" ");
 		System.out.println("\nThe last word of your sentence is: " + newSentence.substring(lastWord));
 
+		sc.close();
+
 	}
 
 }
