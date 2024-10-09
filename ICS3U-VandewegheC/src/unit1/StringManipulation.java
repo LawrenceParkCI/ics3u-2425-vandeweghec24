@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Date: Oct. 8, 2024
  * @author Caden Vandeweghe
  */
-public class Alive {
+public class StringManipulation {
 	/**
 	 *
 	 * @param args unused

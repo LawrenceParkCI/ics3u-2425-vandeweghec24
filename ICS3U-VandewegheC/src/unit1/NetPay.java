@@ -26,9 +26,9 @@ public class NetPay {
 
 		//display the answers
 		System.out.println("The gross pay for an employee who works 40 hours at $5.00 per hour before insurance and tax is:");
-		System.out.println("$"grossPay);
+		System.out.println("$" + grossPay);
 		System.out.println("\nThe net pay for an employee who works 40 hours at $5.00 per hour and has $2.00 deducted for insurance and must pay 22% for tax is:");
-		System.out.println("$"netPay);
+		System.out.println("$" + netPay);
 
 	}
 }
