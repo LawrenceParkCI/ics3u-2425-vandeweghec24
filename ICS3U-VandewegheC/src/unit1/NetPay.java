@@ -12,8 +12,7 @@ public class NetPay {
 	public static void main(String[] args) {
 
 		//declare variables
-		double netPay;
-
+		
 		double hours = 40.00;
 
 		double wage = 5.00;
@@ -23,11 +22,14 @@ public class NetPay {
 		double tax = 0.22;
 
 		//netPay equation
-		netPay = (hours * wage - insurance) - tax*(hours * wage - insurance);
+		double grossPay = hours * wage;
+		double netPay = (grossPay - insurance) - tax*(grossPay - insurance);
 
-		//display the answer
-		System.out.println("The net pay for an employee who works 40 hours at 5.00 per hour and has 2.00 deducted for insurance and must pay 22% for tax is:");
-		System.out.println(netPay);
+		//display the answers
+		System.out.println("The gross pay for an employee who works 40 hours at $5.00 per hour before insurance and tax is:");
+		System.out.println("$"grossPay);
+		System.out.println("\nThe net pay for an employee who works 40 hours at $5.00 per hour and has $2.00 deducted for insurance and must pay 22% for tax is:");
+		System.out.println("$"netPay);
 
 	}
 }
