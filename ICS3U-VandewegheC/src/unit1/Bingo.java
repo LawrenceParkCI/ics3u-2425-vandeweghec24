@@ -8,8 +8,9 @@ package unit1;
 public class Bingo {
 
 	public static void main(String[] args) {
+
 		/**
-		 *
+		 * Entry point to the program
 		 * @param args unused
 		 */
 

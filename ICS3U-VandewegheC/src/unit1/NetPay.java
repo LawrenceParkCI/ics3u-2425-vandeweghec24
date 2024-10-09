@@ -1,10 +1,12 @@
 package unit1;
+
 /**
  * Description: This code displayed the net pay for an employee who works 40 hours at 5.00 per hour and has 2.00 deducted for insurance and must pay 22% for tax
  * Date: Oct. 7, 2024
  * @author Caden Vandeweghe
  */
 public class NetPay {
+
 	/**
 	 *
 	 * @param args unused

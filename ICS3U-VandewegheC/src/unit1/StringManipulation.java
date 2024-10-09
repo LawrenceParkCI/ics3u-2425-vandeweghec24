@@ -1,12 +1,14 @@
 package unit1;
 
 import java.util.Scanner;
+
 /**
  * Description: This code allows the user to input a sentence which it then shows some feautures of it.
  * Date: Oct. 8, 2024
  * @author Caden Vandeweghe
  */
 public class StringManipulation {
+
 	/**
 	 *
 	 * @param args unused
@@ -18,9 +20,9 @@ public class StringManipulation {
 		//Declare the variables
 		String newSentence;
 
-    // Ask the user to input a sentence
+		// Ask the user to input a sentence
 		System.out.println("Please enter a sentence:");
-    newSentence = sc.nextLine();      
+		newSentence = sc.nextLine();      
 
 		// Output the String as is
 		System.out.println("\nThe sentence as is: " + newSentence);

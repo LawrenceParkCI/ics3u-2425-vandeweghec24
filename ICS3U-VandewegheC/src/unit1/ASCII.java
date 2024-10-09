@@ -1,12 +1,14 @@
 package unit1;
+
 /**
  * Description: This program prints the author's name and a picture in ASCII style. 
  * Date: Sept. 26, 2024
  * @author Caden Vandeweghe
  */
 public class ASCII {
+
 	/**
-	 *
+	 * Entry point to the program
 	 * @param args unused
 	 */
 	public static void main(String[] args) {

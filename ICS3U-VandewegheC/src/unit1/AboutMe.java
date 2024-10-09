@@ -1,12 +1,14 @@
 package unit1;
+
 /**
  * Description: This code showcases some personal information, a slogan and my current semester 1 timetable for the week of Sept. 22, 2024
  * Date: Sept. 24, 2024
  * @author Caden Vandeweghe
  */
 public class AboutMe {
+
 	/**
-	 *
+	 * Entry point to the program
 	 * @param args unused
 	 */
 	public static void main(String[] args) {
