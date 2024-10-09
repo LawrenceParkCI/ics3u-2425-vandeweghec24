@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 /**
  * Description: This code presents to you how many days you have approximately and exactly been alive for as well as how many approximate and exact hours you have slept, assuming you sleep 8 hours a night.
- * Date: Oct. 10, 2024
+ * Date: Oct. 8, 2024
  * @author Caden Vandeweghe
  */
 public class Alive {
