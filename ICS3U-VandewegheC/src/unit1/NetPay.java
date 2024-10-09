@@ -12,7 +12,6 @@ public class NetPay {
 	public static void main(String[] args) {
 
 		//declare variables
-		
 		double hours = 40.00;
 
 		double wage = 5.00;
