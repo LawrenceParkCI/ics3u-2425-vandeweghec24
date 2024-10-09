@@ -23,7 +23,7 @@ public class Alive {
 		int BirthDate;
 		int CurrentYear;
 		int CurrentMonth;
-		int CurrentDay;
+		int CurrentDate;
 
 		//Input for brith date questions
 		System.out.println("Enter your birthdate in numerical values:");
@@ -51,22 +51,27 @@ public class Alive {
 
 		//Acurate calculations using LocalDate
 		LocalDate BirthDay = LocalDate.of(BirthYear, BirthMonth, BirthDate);
-		LocalDate CurrentDaye= LocalDate.of(CurrentYear, CurrentMonth, CurrentDate);
+		LocalDate CurrentDay= LocalDate.of(CurrentYear, CurrentMonth, CurrentDate);
 
 		//Exact Calculations
-		int daysAlive = ChronoUnit.DAYS.between(BirthDay, CurrentDay);
+		long daysAlive = ChronoUnit.DAYS.between(BirthDay, CurrentDay);
+		
+		long hoursSlept = daysAlive * 8;
 		
 		//Approximate Calculations
-		int DaysAlive = ((CurrentYear - BirthYear)* 365) + ((CurrentMonth - BirthMonth)*30) + (CurrentDate - BirthDate);
+		long DaysAlive = ((CurrentYear - BirthYear)* 365) + ((CurrentMonth - BirthMonth)*30) + (CurrentDate - BirthDate);
 
-		int HourSlept = DaysAlive * 8;
+		long HoursSlept = DaysAlive * 8;
 
 		//Output the result
-		System.out.println("\nYou have been alive for " + daysAlive + " days.");
+		System.out.println("\nYou have been alive for exactly" + daysAlive + " days.");
 		
-		System.out.println("\nYou have been alive for " + DaysAlive + " days if there are 30 days in each month and 365 days per year.");
+		System.out.println("\nYou have been alive for approximately" + DaysAlive + " days if there are 30 days in each month and 365 days per year.");
 			
-		System.out.println("\nYou have slept " + HoursSlept + " hours. if you sleep 8 hours a day");
+		System.out.println("\nYou have slept exactly" + hoursSlept + " hours. if you sleep 8 hours a day");
+
+		System.out.println("\nYou have slept approximately" + HoursSlept + " hours. if you sleep 8 hours a day");
+
 
 		sc.close();
 		
