@@ -2,7 +2,7 @@ package unit1;
 
 import java.util.Scanner;
 /**
- * Description:
+ * Description: This code allows the user to input a sentence which it then shows some feautures of it.
  * Date: Oct. 8, 2024
  * @author Caden Vandeweghe
  */
