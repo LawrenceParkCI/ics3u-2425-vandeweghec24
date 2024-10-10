@@ -64,7 +64,7 @@ public class UsingMathMethods {
 		 */
 
 		//The methods round, sqrt and abs only have one parameter (which is in the brackets).
-		//Do//Why does the pow method have 2 parameters? Explain the purpose of these 2 parameters.
+		//Why does the pow method have 2 parameters? Explain the purpose of these 2 parameters. It needs two parameters, the base number and the exponent. These parameters are then used to calculate the result of the exponentiation operation. These two parameters are needed to create and finish the calculation as it would not work without one.
 
 
 		System.out.println("\nPart B");

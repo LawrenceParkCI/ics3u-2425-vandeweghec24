@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 /**
 * Description:
-* Date:
-* @author 
+* Date: Oct. 10, 2024
+* @author Caden Vandeweghe
 */
 public class Casting {
 	
