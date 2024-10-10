@@ -3,7 +3,7 @@ package unit1;
 import java.util.Scanner;
 
 /**
- * Description:
+ * Description: This code prints out a variety of math codes that include the option to input your own real numbers and integers.
  * Date: Oct. 9. 2024
  * @author Caden Vandeweghe
  */
