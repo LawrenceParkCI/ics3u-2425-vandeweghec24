@@ -32,10 +32,10 @@ public class Casting {
     //implicit casting
     doubleNum = intNum;
 
-    //What type of data is printed here? Why?
+    //What type of data is printed here? Why? 
     System.out.println(doubleNum);
 
-    //can you explain what is happening in this code?
+    //can you explain what is happening in this code? The code showcases that the variable "doubleNum" = itself + 2.2. doubleNum = 10  because it = intNum which is 10.
     doubleNum = doubleNum + 2.2;
 
     //explicit casting
