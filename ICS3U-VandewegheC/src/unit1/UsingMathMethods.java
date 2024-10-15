@@ -60,7 +60,7 @@ public class UsingMathMethods {
 		 * rint: It rounds the given number to the nearest double
 		 * sqrt: It square roots the given number
 		 * abs: It finds the absolute value of the given number (negative numbers go to positive, positive numbers stay as positive.)
-		 * pow: It powers the given number to the given power
+		 * pow: It multiplys the given number by itself to the given power
 		 */
 
 		//The methods round, sqrt and abs only have one parameter (which is in the brackets).
@@ -87,11 +87,10 @@ public class UsingMathMethods {
 
 
 
-		//Write down the results produced by your program when the real number 7.8985 and
-		//the integer 3 are input.
+		//Write down the results produced by your program when the real number 7.8985 and the integer 3 are input.
 		//REAL NUMBER: 7.8985
 		//SQUARE ROOT: 2.8104270138183627
-		//RAISED TO POWER3: 492.75820832162503
+		//RAISED TO POWER 3: 492.75820832162503
 
 
 		//Change your program so that instead of inputting an integer power, a real number
