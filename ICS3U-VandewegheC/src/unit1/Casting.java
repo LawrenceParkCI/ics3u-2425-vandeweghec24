@@ -3,7 +3,7 @@ package unit1;
 import java.util.Scanner;
 
 /**
- * Description:
+ * Description: Casting 1 Worksheet
  * Date: Oct. 10, 2024
  * @author Caden Vandeweghe
  */
@@ -46,37 +46,33 @@ public class Casting {
 
 		/*
     Demonstrate casting between each of the data type. Write down whether it is explicit or implicit
-      int to double - explicit
-      double to int - implicit
-      int to long - explicit
-      long to int - implicit
+      int to double - implicit
+      double to int - explicit
+      int to long - implicit
+      long to int - explicit
 
     Why do you think these are implicit/explicit? (Hint: Think about the size of each data and the type of data)
 		 */
-		//int int1;
-		//double double1;
-		//long long1;
-
-		//example
-		//int1 = 1;
-
-		//int1 = (int) double1;
-		//double1 = int1;
-		//int1 = (int) long1;
-		//long1 = int1;
-
-		System.out.println("Input an integer <Enter>");
+		//If the original value is smaller than the one that we are trying to convert it into, then it is implicit as it is implied. If not, then we have to state it ourselves which is explicit
 
 		System.out.println("Part 2");
 
 		//understanding what you can do with casting, can you round the following variable to the nearest 10th?
-		//double myNum;
 
-		//Scanner in = new Scanner(System.in);
+		Scanner in = new Scanner(System.in);
+
+		double myNum;
+		
 		System.out.println("Give me decimal number up to the hundredth");
 		//code
 
 		System.out.print("Rounding down to the nearest tenth, it is: ");
-
+		myNum = in.nextDouble();
+		System.out.print("Rounding down to the nearest tenth, it is: ");
+		myNum = myNum*10;
+		myNum = (int) myNum;
+		myNum = (double)myNum/10;
+		System.out.println(myNum);
+		in.close();
 	}
 }
