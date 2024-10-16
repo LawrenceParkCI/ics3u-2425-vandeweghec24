@@ -1,9 +1,9 @@
 package unit1;
 
 /**
-* Description:
-* Date:
-* @author 
+* Description: Casting worksheet
+* Date: October 16, 2o24
+* @author Caden Vandeweghe
 */
 public class Commenting {
   
@@ -53,37 +53,38 @@ public class Commenting {
     /*
     * Variables Name    |   Value
     * ---------------------------------
-    * num1              |
-    * num2              |
+    * num1              | 20
+    * num2              | 36.2
     * stringNum         |
     */
 
-    num1 += 20;
-    num1 = num1 / 3 * 2;
-    num1 = (int)(num2 * 3 - (2 + 5) * 8);
-    num2 = ((int)num2) - num1;
-    stringNum = num1 + " " + num2;
+    num1 += 20; //num1 is now 21 
+    num1 = num1 / 3 * 2; //num1 is now 14
+    num1 = (int)(num2 * 3 - (2 + 5) * 8); //num1 is now 52
+    num2 = ((int)num2) - num1; //num2 is now -16.0
+    stringNum = num1 + " " + num2; //stringNum is now 52 -16.0
 
     /*
     * Variables Name    |   Value
     * ---------------------------------
-    * num1              |
-    * num2              |
-    * stringNum         |
+    * num1              | 52
+    * num2              | -16.0
+    * stringNum         | 52 -16.0
     */
 
-    num2 /= 2.5;
-    num1 /= 2;
-    stringNum = stringNum + "; ";
-    stringNum = stringNum + num1 + " " + num2;
+    num2 /= 2.5; //num2 is now -6.4
+    num1 /= 2; //num1 is now 26
+    stringNum = stringNum + "; "; //stringNum is now 52 -16.0; 
+    stringNum = stringNum + num1 + " " + num2; //stringNum is now 52 -16.0; 26 -6.4
+
 
 
     /*
     * Variables Name    |   Value
     * ---------------------------------
-    * num1              |
-    * num2              |
-    * stringNum         |
+    * num1              | 26
+    * num2              | -6.4
+    * stringNum         | 52 -16.0; 26 -6.4
     */
   }
 }
