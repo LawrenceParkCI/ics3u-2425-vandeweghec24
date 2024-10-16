@@ -19,14 +19,14 @@ public class Casting2 {
 		System.out.println(myChar);
 		System.out.println(myChar + 1);
 		//implicit casting
-		
+
 		//explicit casting
 		char myChar2 = (char) (myChar + 1);
 
 		System.out.println(myChar2);
 
 		//Explain what is happening in the code. Where is there explicit casting, where is there implicit casting?
-   		//The code is chosing the variable "myChar" to be "a". It then prints it, and adds one to the ascii value, then outputting that. After, it makes a new variable "char2". You then add one to the value but you cast it into a char changing it to "b"
+		//The code is chosing the variable "myChar" to be "a". It then prints it, and adds one to the ascii value, then outputting that. After, it makes a new variable "char2". You then add one to the value but you cast it into a char changing it to "b"
 
 		//Why do you think this happens? This happens because the ascii value of "a" is 97, You then add one to that with implicit casting
 
@@ -35,7 +35,7 @@ public class Casting2 {
 
 		//create a new character myCharCap, and transform myChar into a capital 'A' and print it
 		char myCharCap = (char)(myChar - 32);
-    		System.out.println(myCharCap);
+		System.out.println(myCharCap);
 
 	}
 }

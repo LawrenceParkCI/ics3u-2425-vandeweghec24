@@ -13,7 +13,7 @@ public class MathOperators {
 		/*
          Pre: Kind of Math, but not really
          What do you notice is happening?
-		 // It prints out ints and strings but combines them with a + sign
+		 //It prints out integerss and strings but combines them with a + sign
 
 		//      System.out.println("Butter" + "fly");
 		// Prints out the word "Butterfly"

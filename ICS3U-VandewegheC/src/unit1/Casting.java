@@ -62,7 +62,7 @@ public class Casting {
 		Scanner in = new Scanner(System.in);
 
 		double myNum;
-		
+
 		System.out.println("Give me decimal number up to the hundredth");
 		//code
 
