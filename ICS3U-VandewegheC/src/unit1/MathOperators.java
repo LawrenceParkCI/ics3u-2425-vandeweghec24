@@ -11,13 +11,14 @@ public class MathOperators {
 	 */
 	public static void main (String [] args) {
 		/*
-         Pre: Kind of Math, but not really
-         What do you notice is happening?
-		 //It prints out integerss and strings but combines them with a + sign
+		 * Pre: Kind of Math, but not really
+		 * What do you notice is happening?
+		 * It prints out integers and strings but combines them with a + sign
+		 */
 
-		//      System.out.println("Butter" + "fly");
+		//System.out.println("Butter" + "fly");
 		// Prints out the word "Butterfly"
-		System.out.println("Butter" + "fly");
+		//System.out.println("Butter" + "fly");
 
 		//      System.out.println("1 + 2 + 3 + 4 + 5");
 		// Prints out "1 + 2 + 3 + 4 + 5"

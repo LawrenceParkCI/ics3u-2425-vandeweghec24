@@ -26,11 +26,11 @@ public class Casting2 {
 		System.out.println(myChar2);
 
 		//Explain what is happening in the code. Where is there explicit casting, where is there implicit casting?
-		//The code is chosing the variable "myChar" to be "a". It then prints it, and adds one to the ascii value, then outputting that. After, it makes a new variable "char2". You then add one to the value but you cast it into a char changing it to "b"
+		//The code is chosing the variable "myChar" to be "a". It then prints it, and adds one to the ASCII value, then outputting that. After, it makes a new variable "char2". You then add one to the value but you cast it into a char changing it to "b"
 
-		//Why do you think this happens? This happens because the ascii value of "a" is 97, You then add one to that with implicit casting
+		//Why do you think this happens? This happens because the ASCII value of "a" is 97, You then add one to that with implicit casting
 
-		//Investigate what is ASCII. What is it? It is the number value of each haracter
+		//Investigate what is ASCII. What is it? It is the number value of each character
 		//Can you find the number value for 'a'? Does it match with your findings above? The value of "a" is 97. Yes it does match my findings
 
 		//create a new character myCharCap, and transform myChar into a capital 'A' and print it
