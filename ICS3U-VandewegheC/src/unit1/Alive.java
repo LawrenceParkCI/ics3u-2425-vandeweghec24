@@ -19,7 +19,7 @@ public class Alive {
 
 		Scanner sc = new Scanner(System.in);
 
-		//declare the variables
+		//Declare the variables
 		int BirthYear;
 		int BirthMonth;
 		int BirthDate;
@@ -27,7 +27,7 @@ public class Alive {
 		int CurrentMonth;
 		int CurrentDate;
 
-		//Input for brith date questions
+		//Input for birth date questions
 		System.out.println("Enter your birthdate in numerical values:");
 
 		System.out.println("\nType in your birth year and <Enter>: ");
@@ -51,7 +51,7 @@ public class Alive {
 		System.out.println("\nType in the current date and <Enter>: ");
 		CurrentDate = sc.nextInt();
 
-		//Acurate calculations using LocalDate
+		//Accurate calculations using LocalDate
 		LocalDate BirthDay = LocalDate.of(BirthYear, BirthMonth, BirthDate);
 		LocalDate CurrentDay= LocalDate.of(CurrentYear, CurrentMonth, CurrentDate);
 
