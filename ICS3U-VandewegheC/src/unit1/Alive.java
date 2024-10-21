@@ -53,7 +53,7 @@ public class Alive {
 
 		//Accurate calculations using LocalDate
 		LocalDate BirthDay = LocalDate.of(BirthYear, BirthMonth, BirthDate);
-		LocalDate CurrentDay= LocalDate.of(CurrentYear, CurrentMonth, CurrentDate);
+		LocalDate CurrentDay = LocalDate.of(CurrentYear, CurrentMonth, CurrentDate);
 
 		//Exact Calculations
 		long daysAlive = ChronoUnit.DAYS.between(BirthDay, CurrentDay);

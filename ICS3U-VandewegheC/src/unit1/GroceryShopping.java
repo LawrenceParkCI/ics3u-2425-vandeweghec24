@@ -1,5 +1,6 @@
 package unit1;
 
+import java.time.LocalDate;
 import java.util.Scanner;
 
 /**
@@ -53,17 +54,28 @@ public class GroceryShopping {
 
 		cost2 = sc.nextDouble(); 
 
-
 		System.out.println("How many are you buying? ");
 
 		amount2 = sc.nextInt(); 
 
 		System.out.println("Very good.");
+	
+		
 		
 		System.out.println("\nThis is your receipt:");
 		
-		System.out.println("\n\n\t\t");
+		System.out.println("\n\n\t\t Mr. Vandeweghe's Grocery");
 
+		System.out.println("current date and time to do");
+		
+		System.out.printf("\n%-15s | %-15s | %-15s | %-20s", "Item", "Price", "Quant.", "Total Price");
+		
+		System.out.println("\n--------------------------------------------------------------------------------");
+		
+		
+		
+		
+		
 		sc.close();
 	}
 }

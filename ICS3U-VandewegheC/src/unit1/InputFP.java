@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @author Caden Vandeweghe
  */
 public class InputFP {
+	
 	/**
 	 *
 	 * @param args unused
