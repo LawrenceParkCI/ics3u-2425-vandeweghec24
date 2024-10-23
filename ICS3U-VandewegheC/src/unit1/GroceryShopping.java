@@ -1,7 +1,7 @@
 package unit1;
 
 import java.text.DecimalFormat;
-
+import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
 /**
@@ -57,28 +57,33 @@ public class GroceryShopping {
 		double totalCost = cost * amount;	
 		double totalCost2 = cost2 * amount2;	
 
+		SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy HH:,,:ss");
 
 		System.out.println("\nThis is your receipt:");
 
 		System.out.println("\n\n\t\t Mr. Vandeweghe's Grocery");
 
-		System.out.println("current date and time to do");
+		System.out.println(formatter);
 
-		System.out.format("\n%-15s | %-15s | %-15s | %-20s", "Item", "Price", "Quant.", "Total Price");
+		System.out.format("\n%-15s | %-15s | %-15s | %-20s", "Item", "Price", "Quantity", "Total Price");
 
 		System.out.println("\n-----------------------------------------------------------------");
 		System.out.format("%-15s | %-15s | %-15s | %-20s", buy, money.format(cost), amount, money.format(totalCost));
 		System.out.format("\n%-15s | %-15s | %-15s | %-20s", buyTwo, money.format(cost2), amount2, money.format(totalCost2));
 		System.out.println("\n-----------------------------------------------------------------");
 		
-		double subTotal = cost + cost2;
-		System.out.format("\n%45s", "Subtotal: ");
-		System.out.format("%-45s" + money.format(subTotal));
+		double subTotal = totalCost + totalCost2;
+		System.out.format("%54s", "Subtotal: ");
+		System.out.format(money.format(subTotal));
 		double taxAmount = 0.13;
 		double tax = subTotal * taxAmount;
-		System.out.format("\n%45s", "Tax: ");
-		System.out.format("%-45s"+ money.format(tax));
+		System.out.format("\n%54s", "Tax: ");
+		System.out.format(money.format(tax));
+		double total = subTotal + tax;
+		System.out.format("\n%54s", "Total: ");
+		System.out.format(money.format(total));
 
+		//System.out.println("This is approximately" + money.format(do));
 
 
 
