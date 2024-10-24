@@ -93,7 +93,7 @@ public class GroceryShopping {
 		System.out.format(money.format(subTotal));
 
 		// Tax
-		double taxRate = 0.13;
+		final double taxRate = 0.13;
 		double tax = subTotal * taxRate;
 		System.out.format("\n%54s", "Tax: ");
 		System.out.format(money.format(tax));
