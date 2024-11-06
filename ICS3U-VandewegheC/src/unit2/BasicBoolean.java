@@ -35,18 +35,18 @@ public class BasicBoolean {
     //this prints out false because firstNum with value 5 is less then secondNum with value 10 (5 < 10) but it indicates that firstNum is greater then secondNum which is false
     System.out.println("2: " + (firstNum > secondNum)); 
 
-    //this prints out true because ________________
+    //this prints out true because firstNum is greater than or equal to int thirdNum (5)
     System.out.println("3: " + (firstNum <= (int)thirdNum)); 
-    //this prints out true because ________________
+    //this prints out true because firstNum is not greater than or equal to thirdNum
     System.out.println("4: " + (firstNum <= thirdNum)); 
 
     /*Test out these boolean operators. Figure out the meaning
-      * > means: g
-      * < means:
-      * <= means:
-      * >= means:
-      * == means:
-      * != means:
+      * > means: Greater than
+      * < means: Less than
+      * <= means: Less than and equal to
+      * >= means: Greater than and equal to
+      * == means: Equal to
+      * != means: Is not equal to
     */
 
   }
