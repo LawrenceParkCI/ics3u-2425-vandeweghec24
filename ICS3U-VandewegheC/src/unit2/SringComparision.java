@@ -3,9 +3,9 @@ package unit2;
 import java.util.Scanner;
 
 /**
- * Description:
- * Date:
- * @author 
+ * Description: StringComparision work sheet.
+ * Date: Nov. 10, 2024
+ * @author Caden Vandeweghe
 */
 
 class StringComparison {
@@ -25,6 +25,7 @@ class StringComparison {
     }
     
     //Run the code. What happens when you type the correct answer? The incorrect answer?
+    //Prints the opposite, if its correct, it prints the incorrect 
 
     /*
       Strings are objects, not primitives and as such are a 
