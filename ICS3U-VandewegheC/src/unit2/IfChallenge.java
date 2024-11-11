@@ -3,9 +3,9 @@ package unit2;
 import java.util.Scanner;
 
 /**
-* Description:
-* Date:
-* @author 
+* Description: IfChallenge work sheet.
+* Date: Nov. 10, 2024
+* @author Caden Vandeweghe
 */
 
 public class IfChallenge {
