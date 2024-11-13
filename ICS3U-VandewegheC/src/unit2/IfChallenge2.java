@@ -29,7 +29,7 @@ public class IfChallenge2 {
       System.out.println("The numbers are NOT in increasing order!");
     }
 
-    scanner.close();
+    sc.close();
     
     //This is for the portfolio
 

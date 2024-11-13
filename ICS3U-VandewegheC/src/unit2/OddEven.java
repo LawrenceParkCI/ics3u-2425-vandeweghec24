@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Description: This code gets the users input and demonstrates if it is odd or even.
  * Date: Nov. 4, 2024
- * @author Caden 
+ * @author Caden Vandeweghe
  */
 
 public class OddEven {
