@@ -16,7 +16,7 @@ public class IfChallenge3 {
 	 * This is the entry point to the program.
 	 * @param args unused
 	 */
-	
+
 	public static void main(String[] args) throws InterruptedException {
 
 		//Declare the variables
@@ -36,12 +36,12 @@ public class IfChallenge3 {
 		if (userStart.equalsIgnoreCase("yes")) {
 			start = true;
 
-		//If the user responds with no	
+			//If the user responds with no	
 		} else if (userStart.equals("no")) {
 			start = false;
 			System.out.println("Ok, come back when you are.");
 
-		//If the user responds with anything other than yes or no
+			//If the user responds with anything other than yes or no
 		} else {
 			System.out.println("Invalid response.");
 		}
@@ -86,8 +86,8 @@ public class IfChallenge3 {
 				Thread.sleep(600);
 				System.out.println("\nGood Job!");
 				score++;
-			
-			//If the user inputs the incorrect answer
+
+				//If the user inputs the incorrect answer
 			} else {
 				Thread.sleep(1000);
 				System.out.println("\n" + question1 + " is incorrect.");
@@ -119,7 +119,7 @@ public class IfChallenge3 {
 				Thread.sleep(600);
 				System.out.println("\nGood Job!");
 				score++;
-			
+
 				//If the user inputs the incorrect answer
 			} else {
 				Thread.sleep(1000);
@@ -144,7 +144,7 @@ public class IfChallenge3 {
 
 			String question3 = sc.nextLine().trim().toLowerCase();
 
-						//If the user inputs the correct answer
+			//If the user inputs the correct answer
 			if (question3.equals("1") || question3.equals("2x")) {
 				Thread.sleep(1000);
 				System.out.println("\n" + question3 + " is correct!");
@@ -152,7 +152,7 @@ public class IfChallenge3 {
 				System.out.println("\nGood Job!");
 				score++;
 
-							//If the user inputs the incorrect answer
+				//If the user inputs the incorrect answer
 			} else {
 				Thread.sleep(1000);
 				System.out.println("\n" + question3 + " is incorrect.");
@@ -171,18 +171,18 @@ public class IfChallenge3 {
 			Thread.sleep(1000);
 			System.out.print("\n> ");
 
-			userAnswerChar = sc.nextLine().trim().toLowerCase().charAt(0);
+			userAnswerChar = sc.nextLine().trim().toUpperCase().charAt(0);
 
-						//If the user inputs the correct answer
-if (userAnswerChar == '1' || userAnswerChar == 'f') {
+			//If the user inputs the correct answer
+			if (userAnswerChar == '1' || userAnswerChar == 'f') {
 				Thread.sleep(1000);
 				System.out.println("\n" + userAnswerChar + " is correct!");
 				Thread.sleep(600);
 				System.out.println("\nGood Job!");
 				score++;
 
-						//If the user inputs the incorrect answer
-} else {
+				//If the user inputs the incorrect answer
+			} else {
 				Thread.sleep(1000);
 				System.out.println("\n" + userAnswerChar + " is incorrect.");
 				Thread.sleep(600);
@@ -211,7 +211,7 @@ if (userAnswerChar == '1' || userAnswerChar == 'f') {
 				Thread.sleep(600);
 				System.out.println("\nGood Job!");
 				score++;
-			
+
 				//If the user inputs the incorrect answer
 			} else {
 				Thread.sleep(1000);
@@ -227,18 +227,18 @@ if (userAnswerChar == '1' || userAnswerChar == 'f') {
 
 			// Grading system
 			String mark;
-			
+
 			//For A+
 			if (percent == 100) {
 				mark = "A+";
 				Thread.sleep(1000);
 				System.out.println("Grade: A+ (Outstanding Performance!)");
-//For A
+				//For A
 			} else if (percent >= 90) {
 				mark = "A";
 				Thread.sleep(1000);
 				System.out.println("Grade: A (Excellent!)");
-//For B+
+				//For B+
 			} else if (percent >= 80) {
 				mark = "B+";
 				Thread.sleep(1000);
@@ -250,8 +250,8 @@ if (userAnswerChar == '1' || userAnswerChar == 'f') {
 				Thread.sleep(1000);
 				System.out.println("Grade: B (Good Effort!)");
 
-			//For C
-} else if (percent >= 60) {
+				//For C
+			} else if (percent >= 60) {
 				mark = "C";
 				Thread.sleep(1000);
 				System.out.println("Grade: C (Needs Improvement)");
