@@ -9,12 +9,15 @@ Date: Nov. 18, 2024
 @author: Caden Vandeweghe
  */
 
-
 public class Randomness {
+	/**
+	 * This is the entry point to the program
+	 * @param args unused
+	 */
 	public static void main(String[] args) {
-		//for (int i = 0; i < 10; i++) {
-			//System.out.println(Math.random());
-		//}
+		for (int i = 0; i < 10; i++) {
+			System.out.println(Math.random());
+		}
 
 		//Run the program a few times. What do you think is the 
 		//range of the numbers generated?
