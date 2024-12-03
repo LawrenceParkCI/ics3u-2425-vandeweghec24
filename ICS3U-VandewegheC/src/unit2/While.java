@@ -11,8 +11,8 @@ public class While {
 	 * @param args unused
 	 */
 	public static void main(String[] args) {
-		
-    Scanner in = new Scanner(System.in);
+
+		Scanner in = new Scanner(System.in);
 		System.out.println("How many people are you planning to see?");
 
 		//Why do you think I coded it this way?
@@ -55,7 +55,7 @@ public class While {
 
 		//Create a while loop that asks for a word, 
 		//and prints it out 20 times.
-		
+
 		String word;
 		int counter = 1;
 		System.out.print("\nType in a word? ");

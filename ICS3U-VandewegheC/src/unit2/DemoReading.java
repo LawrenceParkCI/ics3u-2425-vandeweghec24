@@ -10,37 +10,37 @@ import java.util.Scanner;
  */
 
 public class DemoReading {
-    public static void main(String[] args) {
-        // Create a String variable to hold each line of text
-        String line;
+	public static void main(String[] args) {
+		// Create a String variable to hold each line of text
+		String line;
 
-        try {
-            // Attempt to open and read from the input.txt file
-            File file = new File("input.txt");
+		try {
+			// Attempt to open and read from the input.txt file
+			File file = new File("input.txt");
 
-            // Check if the file exists
-            if (!file.exists()) {
-                System.out.println("File does not exist: " + file.getAbsolutePath());
-                return;
-            }
+			// Check if the file exists
+			if (!file.exists()) {
+				System.out.println("File does not exist: " + file.getAbsolutePath());
+				return;
+			}
 
-            // Create a Scanner to read from the file
-            Scanner fsc = new Scanner(file);
+			// Create a Scanner to read from the file
+			Scanner fsc = new Scanner(file);
 
-            // Read each line until there are no more lines
-            while (fsc.hasNextLine()) {
-                line = fsc.nextLine(); // Read the next line
-                System.out.println(line); // Print the line
-            }
+			// Read each line until there are no more lines
+			while (fsc.hasNextLine()) {
+				line = fsc.nextLine(); // Read the next line
+				System.out.println(line); // Print the line
+			}
 
-            // Close the Scanner
-            fsc.close();
-        } catch (IOException e) {
-            // Handle any file-related exceptions
-            System.out.println("An error occurred while reading the file.");
-            e.printStackTrace();
-        }
-    }
+			// Close the Scanner
+			fsc.close();
+		} catch (IOException e) {
+			// Handle any file-related exceptions
+			System.out.println("An error occurred while reading the file.");
+			e.printStackTrace();
+		}
+	}
 }
 
 

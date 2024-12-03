@@ -8,10 +8,10 @@ import java.util.Scanner;
  * @author Caden Vandeweghe
  */
 public class NameGame {
-/**
- * This is the entry point to the program
- * @param args unused
- */
+	/**
+	 * This is the entry point to the program
+	 * @param args unused
+	 */
 	public static void main(String[] args) {
 		/*
 		 * The application should prompt the user for their name. 
@@ -28,7 +28,7 @@ public class NameGame {
 		else {
 			System.out.println("I hate the name " + name + "!"); }
 		sc.close();
-		
+
 	}
 
 }

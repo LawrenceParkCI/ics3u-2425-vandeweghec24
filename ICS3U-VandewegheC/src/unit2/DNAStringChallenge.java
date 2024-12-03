@@ -18,12 +18,12 @@ public class DNAStringChallenge {
 		int C = 0;
 		int G = 0;
 		int T = 0;
-		
+
 		// print output
 		for (int i = 1; i <= 21; i++) {
 			if (Math.random() <= 0.25) {
 				System.out.print("A");
-				 A++;
+				A++;
 			}
 			else if (Math.random() < 0.50 && Math.random() > 0.25) {
 				System.out.print("C");

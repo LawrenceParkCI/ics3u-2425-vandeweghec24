@@ -17,7 +17,7 @@ public class DoubleDiceContest {
 		 * The program should output the total of the two dice for both the user and the computer, 
 		 * then announce who won: the computer, the user, or say it was a tie.
 		 */
-		
+
 		//Introducion
 		System.out.println("Welcome to the dice competition!");
 		Thread.sleep(1000);
@@ -39,7 +39,7 @@ public class DoubleDiceContest {
 		// declare the computer's score
 		int totalCDice = die3 + die4;
 		System.out.println("The computer has a total dice score of: " + totalCDice);
-		
+
 		// declaring the winner
 		Thread.sleep(1500);
 		if (totalUDice > totalCDice) {
@@ -49,9 +49,9 @@ public class DoubleDiceContest {
 		else {
 			System.out.println("\nThe winner of the dice competition is the computer!");
 		}
-		
-		
-		
+
+
+
 
 	}
 

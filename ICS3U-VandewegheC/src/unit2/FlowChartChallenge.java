@@ -19,16 +19,16 @@ public class FlowChartChallenge {
 		 */
 
 		//https://drive.google.com/file/d/1RJ_lF-5p0QE2Pc8jP67s6XGS-BkyBJuX/view?usp=sharing
-		
+
 		/*
 		 * A while loop checks for the condition at the beginning of the loop while,
 		 * the do-while loop checks for the condition at the end of the loop
 		 */
-		
+
 		Scanner sc = new Scanner(System.in);
 		String name;
-		
-    do {
+
+		do {
 			System.out.print("What is your name? ");
 			name = sc.nextLine();
 		} while (!name.equals("Ms. Kemp"));

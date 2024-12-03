@@ -24,19 +24,19 @@ public class LoopChallenge2 {
       Use the loop that you didn't use in LoopChallenge1
 		 */
 		Scanner sc = new Scanner(System.in);
-		
+
 		//Declare the variables
 		double num = -1;
-		
+
 		//User input
-			while (num < 0) {
-				System.out.print("Type in a positive number here: ");
-				num = sc.nextDouble();
-			}
-		
+		while (num < 0) {
+			System.out.print("Type in a positive number here: ");
+			num = sc.nextDouble();
+		}
+
 		//Print the output
-			System.out.println("The square root of the number you typed is: " + Math.sqrt(num) + ".");
-		
-			sc.close();
+		System.out.println("The square root of the number you typed is: " + Math.sqrt(num) + ".");
+
+		sc.close();
 	}
 }

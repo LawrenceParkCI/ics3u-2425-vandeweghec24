@@ -14,7 +14,7 @@ public class OddEven {
 	 * Entry point to the program
 	 * @param args unused
 	 */
-	
+
 	public static void main(String[] args) {
 
 		//Declare the variables
