@@ -6,7 +6,7 @@ Description:
  - Using Static methods
  - Parts of a method
 Date:
-@author 
+@author Caden Vandeweghe
 */
 
 public class Methods {
