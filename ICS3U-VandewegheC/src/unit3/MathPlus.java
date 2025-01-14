@@ -51,7 +51,7 @@ Scanner sc = new Scanner(System.in);
 		
 		return c;
 		
-	}
+	
 	
 	//Returns the number of factors of the given number
 	
@@ -60,16 +60,16 @@ Scanner sc = new Scanner(System.in);
 	 * @param num
 	 * @return
 	 */
-	public static double numOfFactors (int num) {
+	//public static double numOfFactors (int num) {
 
-		for (int i = 1; i < num; i++) {
+	//	for (int i = 1; i < num; i++) {
 
 
 
 			
 	}
 	}
-}
+//}
 
 	
 
