@@ -140,20 +140,57 @@ public class CFTest {
 
         c.setTextColor(Color.WHITE);
 
-       c.setFont(new Font("ArialROunded", Font.BOLD, 48));
+       c.setFont(new Font("ArialRounded", Font.BOLD, 48));
 
-        c.println("=== CONNECT FOUR RULES ===");
+        c.println("CONNECT FOUR RULES");
 
-        c.println("- Two players take turns dropping colored discs into a 7-column, 6-row grid.");
+       Thread.sleep(1000);
 
-        c.println("- The first player to connect four of their discs vertically, horizontally, or diagonally wins.");
+       c.print("\nWelcome to");
 
-        c.println("- If the grid is filled without any player connecting four, the game is a draw.");
+        c.setTextColor(Color.YELLOW);
 
-        c.println("===========================");
+        Thread.sleep(500); 
+
+       c.print(" Connect");
+
+        c.setTextColor(Color.RED);
+
+        Thread.sleep(500);
+
+c.print(" Four");
+
+        c.setTextColor(Color.WHITE);
+
+        c.print("!");
+
+        Thread.sleep(1000);
+
+        c.println("\n1. Players take turns dropping checkers into one of the columns on the grid.");
+
+        Thread.sleep(1000);
+
+        c.println("2. The first player to align four discs horizontally, vertically, or diagonlly wins the game.");
+
+        Thread.sleep(1000);
+
+        c.println("3. Use the mouse to drag the checkers to the column you would like to select.");
+
+        		Thread.sleep(1000);
+
+        		c.println("4. Click on the keypad to drop your disc.");
+
+        Thread.sleep(1000);
+
+        c.println("5. If the grid fills up without a winner, it's a draw.");
+
+       Thread.sleep(1000);
+
+        c.println("Good luck and have fun!");
+
+        Thread.sleep(1000);
 
         c.println("\nPress any key to continue...");
-
         c.getChar();
 
     }
