@@ -1,3 +1,5 @@
+//TO-DO - Finish commenting - add in name, date, description, etc - Add it so it says whos turn it is, add an instruction to reset the game - center the connect four and add a big title - add a reset button - add so when you choose not to play anymore it illustrates a seperate piece of code.
+
 package culminating;
 
 import java.awt.Color;
@@ -293,7 +295,7 @@ c.print(" Four");
 
         c.setFont(new Font("ArialRounded", Font.BOLD, 18));
 
-        c.drawString("Scoreboard", 580, 50);
+        c.drawString("Scoreboard", 540, 50);
 
 
 
