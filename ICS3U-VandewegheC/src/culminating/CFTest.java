@@ -16,11 +16,6 @@ import java.util.Random;
 
 public class CFTest {
 
-	/**
-	 * Entry point to the program
-	 * @param args unused
-	 */
-
 	// Constants for game dimensions and tokens
 	private static final int ROWS = 6; // Number of rows in the Connect Four grid
 	private static final int COLUMNS = 7; // Number of columns in the grid
@@ -45,7 +40,13 @@ public class CFTest {
 	private MouseClickHandler clickHandler; // Handles mouse click events
 	private MouseMotionHandler motionHandler; // Handles mouse movement events
 
-	// Constructor to initialize the game state
+        /**
+         * Constructor to initialize the game state.
+         * Sets up the game board and prepares for gameplay.
+         * 
+         * @param console The console object for the game interface
+         */	
+	
 	public CFTest(Console console) {
 		this.c = console; // Assigns the Console instance
 		grid = new char[ROWS][COLUMNS]; // Initializes the grid
@@ -55,6 +56,12 @@ public class CFTest {
 	
     }
 
+	/**
+	 * Entry point to the program
+    	 * Initializes the game and launches the interface.
+	 * @param args unused
+	 */
+	
 	// Main method to launch the game
 	public static void main(String[] args) throws InterruptedException {
 		Console c = new Console(35, 100, 16, "Connect Four"); // Creates a new console
@@ -67,6 +74,13 @@ public class CFTest {
 
 	}
 
+        /**
+         * Starts the game by displaying the rules and selecting a game mode.
+         * Controls the main flow of game setup and initialization.
+         *  
+         * @throws InterruptedException If interrupted during sleep operations
+         */
+	
 	// Method to display the rules and let the user select a game mode
 	private void startGame() throws InterruptedException {
 		showRules(); // Displays the game rules
@@ -99,7 +113,14 @@ public class CFTest {
 		removeListeners(); // Removes listeners after the game ends
 
 	}
-	// Displays the game rules to the user
+
+	/**
+         * Displays the rules of the game to the user.
+         * Provides an introduction and instructions for playing Connect Four.
+         * 
+         * @throws InterruptedException If interrupted during sleep operations
+         */
+	
 	private void showRules() throws InterruptedException {
 		c.clear();
 		c.setTextColor(Color.WHITE);
@@ -139,7 +160,11 @@ public class CFTest {
 
 	}
 
-	// Displays an error message for invalid input
+        /**
+         * Displays an error message for invalid input.
+         * Prompts the user to re-enter a valid option.
+         */
+	
 	private void showErrorPage() {
 		c.clear();
 		c.setFont(new Font("ArialRounded", Font.BOLD, 16));
@@ -152,7 +177,11 @@ public class CFTest {
 
 	}
 
-	// Resets the game board to its initial empty state
+        /**
+         * Resets the game board to its initial empty state.
+         * Prepares the board for a new game.
+         */
+	
 	private void resetBoard() {
 		for (int i = 0; i < ROWS; i++) {
 			for (int j = 0; j < COLUMNS; j++) {
@@ -171,7 +200,11 @@ public class CFTest {
 
 	}
 
-	// Draws the game board and tokens
+        /**
+         * Draws the game board and tokens.
+         * Displays the current state of the game.
+         */
+	
 	private void drawBoard() {
 		c.clear();
 
@@ -218,7 +251,14 @@ public class CFTest {
 
 	}
 
-	// Checks if a cell is part of the winning line
+        /**
+         * Checks if a cell is part of the winning line.
+         * 
+         * @param row The row of the cell
+         * @param col The column of the cell
+         * @return True if the cell is part of the winning line, false otherwise
+         */
+	
 	private boolean isPartOfWinningLine(int row, int col) {
 		if (winningCoordinates == null) return false;
 		for (int[] coord : winningCoordinates) {
@@ -233,7 +273,11 @@ public class CFTest {
 
 	}
 
-	// Displays the scoreboard and instructions
+        /**
+         * Displays the scoreboard and instructions.
+         * Provides a visual representation of the game scores and rules.
+         */
+	
 	private void drawScoreboard() {
 		c.setColor(Color.DARK_GRAY);
 		c.fillRect(520, 20, 300, 300);
@@ -267,7 +311,13 @@ public class CFTest {
 
 	}
 
-	// Attempts to drop a token into the specified column
+        /**
+         * Attempts to drop a token into the specified column.
+         * 
+         * @param column The column where the token is to be dropped
+         * @return True if the token is successfully dropped, false otherwise
+         */
+	
 	private boolean dropToken(int column) {
 		if (column < 0 || column >= COLUMNS || grid[0][column] != EMPTY) {
 			return false; // Invalid move if column is out of bounds or full
@@ -287,7 +337,12 @@ public class CFTest {
 
 	}
 
-	// Checks if there is a winning condition on the board
+        /**
+         * Checks if there is a winning condition on the board.
+         * 
+         * @return True if a win is detected, false otherwise
+         */
+	
 	private boolean checkWin() {
 		int[][] directions = {{0, 1}, {1, 0}, {1, 1}, {1, -1}}; // Directions: horizontal, vertical, diagonal
 		for (int row = 0; row < ROWS; row++) {
@@ -330,13 +385,22 @@ public class CFTest {
 
 	}
 
-	// Switches the turn to the other player
+        /**
+         * Switches the turn to the other player.
+         * Alternates between "Red" and "Yellow".
+         */
+  	
 	private void switchPlayer() {
 		currentPlayer = currentPlayer.equals("Red") ? "Yellow" : "Red";
 
 	}
-
-	// Checks if the board is full (no empty cells)
+ 
+        /**
+         * Checks if the board is full.
+         * 
+         * @return True if the board is completely filled, false otherwise
+         */
+	
 	private boolean isBoardFull() {
 		for (int i = 0; i < ROWS; i++) {
 			for (int j = 0; j < COLUMNS; j++) {
@@ -353,7 +417,13 @@ public class CFTest {
 
 	}
 
-	// Main game loop
+        /**
+         * Main game loop.
+         * Handles gameplay logic and player interactions.
+         * 
+         * @throws InterruptedException If interrupted during sleep operations
+         */
+	
 	public void playGame() throws InterruptedException {
 		while (true) {
 			resetBoard();
@@ -439,7 +509,13 @@ public class CFTest {
 
 	}
 
-	// Displays the winning line and prompts replay options
+        /**
+         * Displays the winning line and prompts replay options.
+         * Allows the user to choose whether to play again or quit.
+         * 
+         * @throws InterruptedException If interrupted during sleep operations
+         */
+	
 	private void showWinningLineAndReplay() throws InterruptedException {
 		drawBoard();
 		c.setTextColor(Color.WHITE);
@@ -464,7 +540,11 @@ public class CFTest {
 
 	}
 
-	// Adds mouse listeners for user interaction
+        /**
+         * Adds mouse listeners for user interaction.
+         * Enables hover and click functionalities.
+         */
+	
 	private void addListeners() {
 		clickHandler = new MouseClickHandler();
 		motionHandler = new MouseMotionHandler();
@@ -473,14 +553,22 @@ public class CFTest {
 
 	}
 
-	// Removes mouse listeners when the game ends
+        /**
+         * Removes mouse listeners when the game ends.
+         * Disables hover and click functionalities.
+         */
+	
 	private void removeListeners() {
 		c.removeMouseListener(clickHandler);
 		c.removeMouseMotionListener(motionHandler);
 
 	}
 
-	// Handles mouse click events
+        /**
+         * Handles mouse click events.
+         * Allows players to select columns for token placement.
+         */
+	
 	private class MouseClickHandler implements MouseListener {
 		public void mouseClicked(MouseEvent e) {
 			hoverColumn = (e.getX() - 20) / 70; // Determines the column clicked
@@ -498,7 +586,11 @@ public class CFTest {
 
 	}
 
-	// Handles mouse motion events
+        /**
+         * Handles mouse motion events.
+         * Updates the board to show hovering token in the selected column.
+         */
+	
 	private class MouseMotionHandler implements MouseMotionListener {
 		public void mouseMoved(MouseEvent e) {
 			hoverColumn = (e.getX() - 20) / 70; // Determines the column hovered
