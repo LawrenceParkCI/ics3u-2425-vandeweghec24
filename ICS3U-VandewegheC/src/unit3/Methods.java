@@ -5,16 +5,20 @@ Description:
  - Introduction
  - Using Static methods
  - Parts of a method
-Date:
+Date: December 13, 2024
 @author Caden Vandeweghe
-*/
+ */
 
 public class Methods {
-public static void main(String[] args) {
-  /**
+	/**
+	 * This is the entry point to the program
+	 * @param args unused
+	 */
+	public static void main(String[] args) {
+		/**
     Introduction
-  */
-    /*
+		 */
+		/*
     Methods help you modularize a program by separating its tasks into self-contained units.
 
     Pros:
@@ -23,37 +27,35 @@ public static void main(String[] args) {
     - Divide and conquer approach - Constructing programs from small, simple pieces
     - Software reusability - Use existing methods/classes as building blocks to create new programs.
     - Dividing a program into meaningful methods/classes makes the program easier to debug and maintain.
-    */
-  /*
+		 */
+		/*
     Using Static Methods
-  */
-  //Print out a sentence about this school year
-System.out.println("School is so fun here at Lawrence Park!");
-  /*
+		 */
+		//Print out a sentence about this school year
+		System.out.println("I like this school year");
+		/*
     You used a method! The println() method takes some information (parameter), and does something with it - in this case, it puts the text into the console.
 
     You as the user don't know how it works, but because someone has made it, you can simply use it again and again.
-  */
+		 */
 
-  //Look below for part 2, and then come back  
+		//Look below for part 2, and then come back  
 
-  //explain what is happening
-// The variable, integer myNum is initialized with a value of 30. That given value is then doubled becoming a value of 60 (30 * 2). It is then printed as an output show casing "60". 
-  int myNum = 30;
-  myNum = doubleNumber(myNum);
-  System.out.println(myNum);
+		//explain what is happening
+		int myNum = 30;
+		myNum = doubleNumber(myNum);
+		System.out.println(myNum);
 
- //Explain what is happening
-  // The value of 5 is declared and is doubled (5 * 2), indicating a value of 10 which is then printed as "10".
-  System.out.println(doubleNumber(5));
+		//Explain what is happening
+		System.out.println(doubleNumber(5)); // multiplies by 2
 
 
-  //Part 3 is at the bottom, and return here to print out your method's return value
-  
-}
+		//Part 3 is at the bottom, and return here to print out your method's return value
+		System.out.print(larger(3,4));
+		
+	}
 
-
-/**
+	/**
   Part 2 - Parts of a method
   a) You notice the javadac comment above the method - this explains what the method is doing, if it has any input, and if it has any output
   b) public -> means this method is useable anywhere
@@ -63,24 +65,33 @@ System.out.println("School is so fun here at Lawrence Park!");
   f)int num -> the values we need in order for the method to work, and what we will call it in the method; the *parameter*
       the *parameter* -> what the name of the variable which will hold the value is
       the *argument* -> the actual value that is passed into the method
-*/
+	 */
 
-/**(a)
- * This method takes an integer and returns two times its
- * original value
- * @param num - a number to be doubled
- * @return int - a value that was double its original given value
-*/
-//(b)   (c)    (d)     (e)                 (f)
-public static int doubleNumber(int num) {
-  int returnValue = num * 2;
-  return returnValue; //sends the information back to be used
-}
+	/**(a)
+	 * This method takes an integer and returns two times its
+	 * original value
+	 * @param num - a number to be doubled
+	 * @return int - a value that was double its original given value
+	 */
+	//(b)   (c)    (d)     (e)                 (f)
+	public static int doubleNumber(int num) {
+		int returnValue = num * 2;
+		return returnValue; //sends the information back to be used
+	}
 
-/**
+	/**
   Part 3 - Create your method
-*/
-/*
+	 */
+	/*
   Create a method that has 2 int as parameters, and returns the larger one. The name of the method is larger.
-*/
+	 */
+	
+ public static int larger(int num1, int num2) {
+		if (num1 > num2) {
+			return num1;
+		}
+		else {
+			return num2;
+		}
+	}
 }
